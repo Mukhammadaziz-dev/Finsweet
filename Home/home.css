@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Sen';
+    src: url(./fonts/Sen-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url(./fonts/Sen-Medium.ttf);
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url(./fonts/Sen-SemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url(./fonts/Sen-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sen';
+    src: url(./fonts/Sen-ExtraBold.ttf);
+    font-weight: 800;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+.container_style {
+    width: 1200px;
+    margin: 0 auto;
+}

@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="./Home/home.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+
+    <header class="site_header">
+        <div class="site_header_container container_style_navbar">
+            <a class="site_header_logo" href="./home.html">
+                <img src="./img/site_logo.png" alt="site_logo">
+            </a>    
+            <nav class="site_header_navbar">   
+                <ul class="site_header_navbar_list">
+                    <li class="site_header_list_item">
+                        <a class="site_header_list_item_link" href="./home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="site_header_list_item">
+                        <a class="site_header_list_item_link" href="../Blog/Blog.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="site_header_list_item">
+                        <a class="site_header_list_item_link" href="../AboutUs/AboutUs.html">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="site_header_list_item">
+                        <a class="site_header_list_item_link" href="../Contact/Contact.html">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+                <a href="../Contact/Contact.html" class="site_header_btn">
+                    Subscribe
+                </a>
+            </nav>
+            <a class="site_header_menu_btn" href="#">
+                <i class='bx bx-menu'></i>
+            </a>
+        </div>
+    </header>
 
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
