@@ -1,0 +1,101 @@
+.site_footer {
+    margin-top: 128px;
+    background: #232536;
+}
+.site_footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 61px 0;
+}
+.site_footer_subscribe {
+    width: 90%;
+    background-color: #4C4C4C;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+    border-radius: 30px;
+}
+.site_footer_subscribe_title {
+    color: #fff;
+    width: 50%;
+}
+.site_footer_subscribe_input {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.site_footer_subscribe_input_class_name {
+    width: 70%;
+    height: 56px;
+    padding: 14px 0 14px 25px;
+    background: none;
+    border: 1px solid #232536;
+    outline: none;
+    color: #232536;
+    border-radius: 30px 0 30px 0;
+    font-size: 20px;
+}
+.input_btn {
+    border-radius: 0 30px 0 30px;
+}
+.site_footer_sitial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-bottom: 56px;
+}
+.site_footer_sitial_text {
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1280px) {
+    .site_footer_container {
+        padding: 61px 10px;
+    }
+    .site_footer_subscribe {
+        display: inline-block; 
+        text-align: center;
+        height: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .footer_center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+    }
+    .site_footer_subscribe_title {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .site_footer_subscribe_input {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    .input_btn {
+        margin-top: 20px;
+    }
+    .site_footer_sitial {
+        padding: 0 20px 56px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .site_footer_sitial_text  {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer_media_center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -28,8 +28,6 @@
     align-items: center;
     gap: 24px;
 }
-.site_header_list_item {
-}
 .site_header_list_item_link {
     font-size: 16px;
     font-weight: 400;
